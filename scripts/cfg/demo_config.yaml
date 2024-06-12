@@ -1,0 +1,13 @@
+image_dir: "/home/offroad/data/demo/input"
+output_root: "/home/offroad/data/demo/output"
+model_path: "/home/offroad/data/models/epoch=0-step=306.ckpt"
+# model_path: "/root/catkin_ws/src/self_supervised_segmentation/models/FF_training_200.ckpt"
+# model_path: "/root/catkin_ws/src/self_supervised_segmentation/models/cityscapes_vit_base_1.ckpt"
+experiment_name: "demo_v1"
+resolution: 320
+
+# Loader params
+batch_size: 8
+num_workers: 24
+
+run_crf: False

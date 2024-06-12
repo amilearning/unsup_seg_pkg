@@ -1,0 +1,12 @@
+data_dir: "/home/offroad/data"
+dataset_name: "RUGD_preprocessed"
+model_path: "/home/offroad/data/models/epoch=0-step=306.ckpt" # Path to STEGO checkpoint
+output_root: "home/offroad/data/eval"
+experiment_name: "RUGD"
+backbone_name: "vit_small"
+resolution: 320
+batch_size: 8
+num_workers: 24
+
+n_batches: # Optionally, specify a number of batches in the shuffled dataset to calculate metrics on
+run_crf: False
