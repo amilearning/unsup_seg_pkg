@@ -1,0 +1,59 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.10
+    cli_version: 0.17.1
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1718717036
+    t:
+      1:
+      - 1
+      - 9
+      - 41
+      - 50
+      - 55
+      - 79
+      - 103
+      2:
+      - 1
+      - 9
+      - 41
+      - 50
+      - 55
+      - 79
+      - 103
+      3:
+      - 1
+      - 7
+      - 13
+      - 23
+      - 66
+      4: 3.8.10
+      5: 0.17.1
+      8:
+      - 5
+      13: linux-x86_64
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+n_classes:
+  desc: null
+  value: 24
+n_image_clusters:
+  desc: null
+  value: 0
+cfg:
+  desc: null
+  value: '{''backbone'': ''dino'', ''backbone_type'': ''vit_small'', ''patch_size'':
+    8, ''dropout_p'': 0.1, ''pretrained_weights'': None, ''dim'': 90, ''extra_clusters'':
+    0, ''crf_max_iter'': 10, ''pos_w'': 3, ''pos_xy_std'': 1, ''bi_w'': 4, ''bi_xy_std'':
+    67, ''bi_rgb_std'': 3, ''lr'': 0.0005, ''cluster_lr'': 0.005, ''linear_lr'': 0.005,
+    ''val_n_imgs'': 3, ''zero_clamp'': True, ''stabilize'': False, ''pointwise'':
+    True, ''feature_samples'': 11, ''neg_samples'': 5, ''neg_inter_weight'': 1.0,
+    ''pos_inter_weight'': 0.5, ''pos_intra_weight'': 1.0, ''neg_inter_shift'': 0.3,
+    ''pos_inter_shift'': 0.2, ''pos_intra_shift'': 0.35}'

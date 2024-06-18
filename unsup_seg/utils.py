@@ -93,6 +93,7 @@ def get_transform(res, is_label, crop_type, is_tensor=False, do_normalize=True):
     else:
         raise ValueError("Unknown Cropper {}".format(crop_type))
     transform = [T.Resize(res, T.InterpolationMode.NEAREST), cropper]
+    # transform = []
 
     if is_label:
         transform.append(ToTargetTensor())

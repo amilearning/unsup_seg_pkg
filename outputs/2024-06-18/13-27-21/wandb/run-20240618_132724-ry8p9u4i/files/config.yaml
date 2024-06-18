@@ -1,0 +1,618 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    mask/class_labels:
+      Image0_wandb_delimeter_label:
+        type: mask/class_labels
+        key: Image0_wandb_delimeter_label
+        value:
+          '0': class_0
+      Image0_wandb_delimeter_cluster:
+        type: mask/class_labels
+        key: Image0_wandb_delimeter_cluster
+        value:
+          '0': class_0
+          '1': class_1
+          '2': class_2
+          '3': class_3
+          '5': class_5
+          '6': class_6
+          '9': class_9
+          '10': class_10
+          '12': class_12
+          '14': class_14
+          '17': class_17
+          '18': class_18
+          '20': class_20
+          '21': class_21
+          '22': class_22
+          '23': class_23
+      Image0_wandb_delimeter_linear:
+        type: mask/class_labels
+        key: Image0_wandb_delimeter_linear
+        value:
+          '0': class_0
+          '1': class_1
+          '2': class_2
+          '3': class_3
+          '4': class_4
+          '5': class_5
+          '6': class_6
+          '7': class_7
+          '8': class_8
+          '9': class_9
+          '10': class_10
+          '11': class_11
+          '12': class_12
+          '13': class_13
+          '14': class_14
+          '15': class_15
+          '16': class_16
+          '17': class_17
+          '18': class_18
+          '19': class_19
+          '20': class_20
+          '21': class_21
+          '22': class_22
+          '23': class_23
+      Image1_wandb_delimeter_label:
+        type: mask/class_labels
+        key: Image1_wandb_delimeter_label
+        value:
+          '0': class_0
+      Image1_wandb_delimeter_cluster:
+        type: mask/class_labels
+        key: Image1_wandb_delimeter_cluster
+        value:
+          '0': class_0
+          '2': class_2
+          '3': class_3
+          '5': class_5
+          '6': class_6
+          '9': class_9
+          '10': class_10
+          '12': class_12
+          '14': class_14
+          '17': class_17
+          '18': class_18
+          '20': class_20
+          '21': class_21
+          '22': class_22
+          '23': class_23
+      Image1_wandb_delimeter_linear:
+        type: mask/class_labels
+        key: Image1_wandb_delimeter_linear
+        value:
+          '0': class_0
+          '1': class_1
+          '2': class_2
+          '3': class_3
+          '4': class_4
+          '5': class_5
+          '6': class_6
+          '7': class_7
+          '8': class_8
+          '9': class_9
+          '10': class_10
+          '11': class_11
+          '12': class_12
+          '13': class_13
+          '14': class_14
+          '15': class_15
+          '16': class_16
+          '17': class_17
+          '18': class_18
+          '19': class_19
+          '20': class_20
+          '22': class_22
+          '23': class_23
+      Image2_wandb_delimeter_label:
+        type: mask/class_labels
+        key: Image2_wandb_delimeter_label
+        value:
+          '0': class_0
+      Image2_wandb_delimeter_cluster:
+        type: mask/class_labels
+        key: Image2_wandb_delimeter_cluster
+        value:
+          '0': class_0
+          '2': class_2
+          '3': class_3
+          '5': class_5
+          '6': class_6
+          '9': class_9
+          '10': class_10
+          '12': class_12
+          '14': class_14
+          '17': class_17
+          '18': class_18
+          '20': class_20
+          '21': class_21
+          '22': class_22
+          '23': class_23
+      Image2_wandb_delimeter_linear:
+        type: mask/class_labels
+        key: Image2_wandb_delimeter_linear
+        value:
+          '0': class_0
+          '1': class_1
+          '2': class_2
+          '3': class_3
+          '4': class_4
+          '5': class_5
+          '6': class_6
+          '7': class_7
+          '8': class_8
+          '9': class_9
+          '11': class_11
+          '12': class_12
+          '13': class_13
+          '14': class_14
+          '15': class_15
+          '16': class_16
+          '17': class_17
+          '18': class_18
+          '19': class_19
+          '20': class_20
+          '22': class_22
+          '23': class_23
+    python_version: 3.8.10
+    cli_version: 0.17.1
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1718717244
+    t:
+      1:
+      - 1
+      - 9
+      - 41
+      - 50
+      - 55
+      - 79
+      - 103
+      2:
+      - 1
+      - 9
+      - 41
+      - 50
+      - 55
+      - 79
+      - 103
+      3:
+      - 1
+      - 7
+      - 13
+      - 23
+      - 66
+      4: 3.8.10
+      5: 0.17.1
+      8:
+      - 5
+      13: linux-x86_64
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: Image0._type
+      5: 1
+      6:
+      - 1
+    - 1: Image0.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image0.size
+      5: 1
+      6:
+      - 1
+    - 1: Image0.path
+      5: 1
+      6:
+      - 1
+    - 1: Image0.format
+      5: 1
+      6:
+      - 1
+    - 1: Image0.width
+      5: 1
+      6:
+      - 1
+    - 1: Image0.height
+      5: 1
+      6:
+      - 1
+    - 1: Image0.caption
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.label._type
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.label.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.label.size
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.label.path
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.cluster._type
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.cluster.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.cluster.size
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.cluster.path
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.linear._type
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.linear.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.linear.size
+      5: 1
+      6:
+      - 1
+    - 1: Image0.masks.linear.path
+      5: 1
+      6:
+      - 1
+    - 1: Image1._type
+      5: 1
+      6:
+      - 1
+    - 1: Image1.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image1.size
+      5: 1
+      6:
+      - 1
+    - 1: Image1.path
+      5: 1
+      6:
+      - 1
+    - 1: Image1.format
+      5: 1
+      6:
+      - 1
+    - 1: Image1.width
+      5: 1
+      6:
+      - 1
+    - 1: Image1.height
+      5: 1
+      6:
+      - 1
+    - 1: Image1.caption
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.label._type
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.label.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.label.size
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.label.path
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.cluster._type
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.cluster.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.cluster.size
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.cluster.path
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.linear._type
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.linear.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.linear.size
+      5: 1
+      6:
+      - 1
+    - 1: Image1.masks.linear.path
+      5: 1
+      6:
+      - 1
+    - 1: Image2._type
+      5: 1
+      6:
+      - 1
+    - 1: Image2.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image2.size
+      5: 1
+      6:
+      - 1
+    - 1: Image2.path
+      5: 1
+      6:
+      - 1
+    - 1: Image2.format
+      5: 1
+      6:
+      - 1
+    - 1: Image2.width
+      5: 1
+      6:
+      - 1
+    - 1: Image2.height
+      5: 1
+      6:
+      - 1
+    - 1: Image2.caption
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.label._type
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.label.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.label.size
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.label.path
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.cluster._type
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.cluster.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.cluster.size
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.cluster.path
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.linear._type
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.linear.sha256
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.linear.size
+      5: 1
+      6:
+      - 1
+    - 1: Image2.masks.linear.path
+      5: 1
+      6:
+      - 1
+    - 1: val/linear/mIoU
+      5: 1
+      6:
+      - 1
+    - 1: val/linear/Accuracy
+      5: 1
+      6:
+      - 1
+    - 1: val/cluster/mIoU
+      5: 1
+      6:
+      - 1
+    - 1: val/cluster/Accuracy
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: loss/pos_intra
+      5: 1
+      6:
+      - 1
+    - 1: loss/pos_inter
+      5: 1
+      6:
+      - 1
+    - 1: loss/neg_inter
+      5: 1
+      6:
+      - 1
+    - 1: cd/pos_intra
+      5: 1
+      6:
+      - 1
+    - 1: cd/pos_inter
+      5: 1
+      6:
+      - 1
+    - 1: cd/neg_inter
+      5: 1
+      6:
+      - 1
+    - 1: loss/linear
+      5: 1
+      6:
+      - 1
+    - 1: loss/cluster
+      5: 1
+      6:
+      - 1
+    - 1: loss/total
+      5: 1
+      6:
+      - 1
+    - 1: gradients/cluster_probe\.clusters._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/cluster_probe\.clusters.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/cluster_probe\.clusters.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/linear_probe\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/linear_probe\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/linear_probe\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/linear_probe\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/linear_probe\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/linear_probe\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.0\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.0\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.nonlinear\.0\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.linear\.0\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.linear\.0\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.linear\.0\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.linear\.0\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.linear\.0\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/segmentation_head\.linear\.0\.bias.bins
+      5: 1
+      6:
+      - 1
+n_classes:
+  desc: null
+  value: 24
+n_image_clusters:
+  desc: null
+  value: 0
+cfg:
+  desc: null
+  value: '{''backbone'': ''dino'', ''backbone_type'': ''vit_small'', ''patch_size'':
+    8, ''dropout_p'': 0.1, ''pretrained_weights'': None, ''dim'': 90, ''extra_clusters'':
+    0, ''crf_max_iter'': 10, ''pos_w'': 3, ''pos_xy_std'': 1, ''bi_w'': 4, ''bi_xy_std'':
+    67, ''bi_rgb_std'': 3, ''lr'': 0.0005, ''cluster_lr'': 0.005, ''linear_lr'': 0.005,
+    ''val_n_imgs'': 3, ''zero_clamp'': True, ''stabilize'': False, ''pointwise'':
+    True, ''feature_samples'': 11, ''neg_samples'': 5, ''neg_inter_weight'': 1.0,
+    ''pos_inter_weight'': 0.5, ''pos_intra_weight'': 1.0, ''neg_inter_shift'': 0.3,
+    ''pos_inter_shift'': 0.2, ''pos_intra_shift'': 0.35}'

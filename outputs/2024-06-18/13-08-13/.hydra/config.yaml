@@ -1,0 +1,8 @@
+data_dir: /home/offroad/data
+dataset_name: indoor
+image_sets:
+- train
+- val
+resolution: 224
+batch_size: 8
+num_workers: 24
