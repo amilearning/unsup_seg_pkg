@@ -47,7 +47,9 @@ def my_app(cfg: DictConfig) -> None:
 
     image_sets = cfg.image_sets
 
-    res = cfg.resolution
+    # res = cfg.resolution
+    res = [cfg.new_width,cfg.new_height]
+    
     n_batches = 16
     model = UnsupSeg(1).cuda()
 
@@ -87,7 +89,8 @@ def my_app(cfg: DictConfig) -> None:
                 nearest_neighbors = torch.cat(all_nns, dim=0)
 
                 np.savez_compressed(feature_cache_file, nns=nearest_neighbors.numpy())
-                print("Saved NNs", model.backbone_name, cfg.dataset_name, image_set)
+                print("Saved NNs")
+                # print("Saved NNs", model.backbone_name, cfg.dataset_name, image_set)
 
 
 if __name__ == "__main__":

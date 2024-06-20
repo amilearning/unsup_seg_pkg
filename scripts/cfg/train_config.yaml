@@ -1,5 +1,5 @@
 data_dir: "/home/offroad/data"
-dataset_name: "RUGD_preprocessed"
+dataset_name: "indoor"
 
 # Output directory to save the trained checkpoints during training
 checkpoint_dir: "/home/offroad/data/models"
@@ -9,15 +9,17 @@ model_path:
 
 model_name: "vit_small"
 
-resolution: 224
+resolution: 0
+new_width: 184
+new_height: 336
 num_classes: 24
 
 num_workers: 24
-batch_size: 32
+batch_size: 16
 
 scalar_log_freq: 1
 max_steps: 5000
-val_check_interval: 100
+val_check_interval: 12
 
 num_neighbors: 5
 

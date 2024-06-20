@@ -1,9 +1,11 @@
 data_dir: "/home/offroad/data"
-dataset_name: "RUGD_preprocessed"
+dataset_name: "indoor"
 image_sets:
   - "train"
   - "val"
 
-resolution: 224
+resolution: 0
+new_width: 184
+new_height: 336
 batch_size: 8
 num_workers: 24

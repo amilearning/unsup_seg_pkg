@@ -51,14 +51,15 @@ def my_app(cfg: DictConfig) -> None:
     if cfg.reset_clusters:
         model.reset_clusters(cfg.num_classes, cfg.extra_clusters)
 
+    res = [cfg.new_width,cfg.new_height]
     train_dataset = ContrastiveSegDataset(
         data_dir=cfg.data_dir,
         dataset_name=cfg.dataset_name,
         image_set="train",
-        transform=get_transform(cfg.resolution, False, "center"),
-        target_transform=get_transform(cfg.resolution, True, "center"),
+        transform=get_transform(res, False, "center"),
+        target_transform=get_transform(res, True, "center"),
         model_type=cfg.model_name,
-        resolution=cfg.resolution,
+        resolution=res,
         num_neighbors=cfg.num_neighbors,
         pos_images=True,
         pos_labels=True,
@@ -68,10 +69,10 @@ def my_app(cfg: DictConfig) -> None:
         data_dir=cfg.data_dir,
         dataset_name=cfg.dataset_name,
         image_set="val",
-        transform=get_transform(cfg.resolution, False, "center"),
-        target_transform=get_transform(cfg.resolution, True, "center"),
+        transform=get_transform(res, False, "center"),
+        target_transform=get_transform(res, True, "center"),
         model_type=cfg.model_name,
-        resolution=cfg.resolution,
+        resolution=res,
     )
 
     train_loader = DataLoader(
